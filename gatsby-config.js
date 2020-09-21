@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Blog Boost Starter`,
-    description: `A Gatsby Netlify CMS powered Blog Starter to boost your development.`,
-    author: `@boostcode`,
+    title: `UntukNanti.com`,
+    description: `Ilmu sekarang. Amal sekarang. Dakwah sekarang. Untuk nanti.`,
+    author: `@fakhrisatu`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
