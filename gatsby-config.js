@@ -3,7 +3,7 @@ module.exports = {
     title: `UntukNanti.com`,
     description: `Ilmu sekarang. Amal sekarang. Dakwah sekarang. Untuk nanti.`,
     author: `@fakhrisatu`,
-    siteURL: `https://untuknanti.com`,
+    siteUrl: `https://untuknanti.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
