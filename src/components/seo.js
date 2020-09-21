@@ -61,7 +61,7 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
-          name: `robots`,
+          name: `x-robots-tag`,
           content: `all`,
         }
       ].concat(meta)}
