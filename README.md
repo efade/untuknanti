@@ -1,5 +1,7 @@
 # Gatsby Starter Blog Boost
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5f88d5ea-3e07-438b-aba6-365ce9a44322/deploy-status)](https://app.netlify.com/sites/untuknanti-com/deploys)
+
 Blog Starter for a Gatsby project, built using Netlify CMS.
 
 [Example Hosted App](https://cocky-williams-9d49bd.netlify.app/)
