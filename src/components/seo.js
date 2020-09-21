@@ -60,6 +60,10 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `robots`,
+          content: `all`,
+        }
       ].concat(meta)}
     />
   )
