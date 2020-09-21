@@ -3,6 +3,7 @@ module.exports = {
     title: `UntukNanti.com`,
     description: `Ilmu sekarang. Amal sekarang. Dakwah sekarang. Untuk nanti.`,
     author: `@fakhrisatu`,
+    siteURL: `https://untuknanti.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,9 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https://untuknanti.com`,
         policy: `policy: [{ userAgent: '*', allow: '/' }]`
-      }
+      },  
     },
     {
       resolve: `gatsby-source-filesystem`,
