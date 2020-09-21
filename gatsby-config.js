@@ -11,12 +11,20 @@ module.exports = {
     `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/images`,
         name: `images`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://untuknanti.com`,
+        policy: `policy: [{ userAgent: '*', allow: '/' }]`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
